@@ -9,6 +9,10 @@ const App = () => {
     sentData(response.data);
     console.log(data);
   };
+  useEffect(()=>{
+    getData()
+
+  },[])
   return (
     <>
       <button
